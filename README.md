@@ -1,4 +1,4 @@
-# serverless-nodejs-swapi
+# API serverless-nodejs-swapi
 
 **Install via npm:**
 
