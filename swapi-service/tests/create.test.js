@@ -6,8 +6,18 @@ describe('Post Endpoints', () => {
       const res = await request(app)
         .post('/films')
         .send({
-          userId: 1,
-          title: 'test is cool',
+          titulo: 'episodio 2021',
+          episodio_id: 20,
+          sinopsis : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris neque urna, aliquet et lacus sed, lacinia aliquet est.',
+          director : 'Miguel caballero',
+          productor : 'Francisco Sagasti',
+          fecha_lanzamiento : '2021-06-06',
+          especies : 'https://swapi.py4e.com/api/species/1/',
+          naves : 'https://swapi.py4e.com/api/starships/2/',
+          vehiculos : 'https://swapi.py4e.com/api/vehicles/4/',
+          personajes : 'https://swapi.py4e.com/api/people/1/',
+          planetas : 'https://swapi.py4e.com/api/planets/1/',
+          url : 'https://swapi.py4e.com/api/films/20/',
         })
       expect(res.statusCode).toEqual(200)
       expect(res.body).toHaveProperty('post')
