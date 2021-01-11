@@ -1,7 +1,7 @@
 # API serverless-nodejs-swapi
 
 - Pruebas Unitarias con **Jest**
-- Documentacion con **Serverless AWS Documentation**
+- Documentación con **Serverless AWS Documentation**
 - Base de datos con **DynamoDB**
 
 **Install via npm:**
